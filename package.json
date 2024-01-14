@@ -8,7 +8,7 @@
 		"preview": "vite preview",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d build --cname andiliu.me"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
