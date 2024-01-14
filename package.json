@@ -8,7 +8,7 @@
 		"preview": "vite preview",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"deploy": "npm run build && gh-pages -d build --cname andiliu.me --nojekyll"
+		"deploy": "npm run build && gh-pages -d build --cname andiliu.me -t true"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
