@@ -4,8 +4,8 @@
 	import { events } from './mockData.js';
 </script>
 
-<div class="min-w-1/3 w-1/3 flex flex-col justify-between bg-slate-100">
-	<div>
+<div class="min-w-96 w-96 flex flex-col justify-between bg-slate-100">
+	<div class="w-full">
 		{#each events as event, i}
 			<Thumbnail {event} eventid={i} on:eventhover on:eventunhover />
 			<div class="border border-slate-400"></div>
