@@ -1,4 +1,8 @@
 <script>
+	import Location from './Location.svelte';
+
+	import Time from './Time.svelte';
+
 	export let event, eventid;
 
 	import { createEventDispatcher } from 'svelte';
@@ -20,16 +24,16 @@
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
-	class="flex flex-row justify-between h-16 px-2 pt-2"
+	class="flex flex-row justify-between h-16 px-2 pt-1.5"
 	on:mouseenter={handleMouseEnter}
 	on:mouseleave={handleMouseLeave}
 >
 	<div class="flex flex-col">
-		<div class="font-semibold text-sm line-clamp-1 mb-0.5">{event.title}</div>
-		<div class="flex text-xs">
-			<div>{event.time}, {event.date}</div>
+		<div class="font-semibold text-sm line-clamp-1">{event.title}</div>
+		<div class="text-xs pl-1 pt-0.5">
+			<Time {event} />
+			<Location {event} />
 		</div>
-		<div class="text-xs">{event.location}</div>
 	</div>
 	<div class="flex flex-col items-center justify-center">
 		<input type="checkbox" class="checkbox checkbox-primary" checked={event.interested} />

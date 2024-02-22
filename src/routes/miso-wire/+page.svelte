@@ -10,7 +10,7 @@
 	}
 
 	function handleEventUnhover(event) {
-		currentEvent = null;
+		// currentEvent = null;
 	}
 </script>
 

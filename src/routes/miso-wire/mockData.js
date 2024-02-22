@@ -1,25 +1,23 @@
-const texts = [
-    `
-Architectural and compiler support for accelerating embedding operations on general purpose processors
-
-Speaker: Marco Siracusa and Olivia Hsu
-Speaker Affiliation: Barcelona Supercomputing Center (BSC)
-Host: Professor Joel Emer
-Host Affiliation: CSG - CSAIL - MIT
-
-Date: Wednesday, February 28, 2024
-Time:  4:00 PM to 5:00 PM
-
-Location: 32-G449
-
-
+let texts = [
+    `Architectural and compiler support for accelerating embedding operations on general purpose processors
+<br/>
+Speaker: Marco Siracusa and Olivia Hsu<br/>
+Speaker Affiliation: Barcelona Supercomputing Center(BSC) <br/>
+Host: Professor Joel Emer<br/>
+Host Affiliation: CSG - CSAIL - MIT <br/>
+<br/>
+Date: Wednesday, February 28, 2024<br/>
+Time: 4:00 PM to 5:00 PM<br/>
+<br/>
+Location: 32 - G449<br/>
+<br/>
+<br/>
 Abstract:
-Feature embeddings let you transform categorical features (e.g. words) into numerical vectors that can be processed with Deep Neural Networks. This processing is implemented by looking up large embedding tables that store all the embedding vectors of all categorical features. Thus, embedding lookups are a fundamental operation in several machine learning applications such as large language models and recommender systems. However, off-the-shelf processors are not optimized to efficiently gather embedding vectors from scattered memory locations. More recent designs have proposed a specialized near-core engine that decouples irregular memory accesses from the computation performed on the core. One such engine in the literature is the Tensor Marshaling Unit (TMU). The TMU has been designed to accelerate the irregular iteration commonly found in sparse tensor algebra and has been shown to speed up several sparse tensor algebra kernels by 3-5x.
+Feature embeddings let you transform categorical features (e.g.words) into numerical vectors that can be processed with Deep Neural Networks.This processing is implemented by looking up large embedding tables that store all the embedding vectors of all categorical features.Thus, embedding lookups are a fundamental operation in several machine learning applications such as large language models and recommender systems.However, off - the - shelf processors are not optimized to efficiently gather embedding vectors from scattered memory locations.More recent designs have proposed a specialized near - core engine that decouples irregular memory accesses from the computation performed on the core.One such engine in the literature is the Tensor Marshaling Unit(TMU).The TMU has been designed to accelerate the irregular iteration commonly found in sparse tensor algebra and has been shown to speed up several sparse tensor algebra kernels by 3 - 5x.
 
-We propose to apply the TMU primitives beyond tensor algebra to embedding operations. However, handwriting all variants of these operations is time consuming and not amenable to optimizations like kernel fusion. For this reason, we also propose a methodology to automatically lower embedding operations to TMU-CPU code using MLIR. This compilation path enables speeding up the embedding codes found in machine learning frameworks such as TensorFlow and PyTorch.
+We propose to apply the TMU primitives beyond tensor algebra to embedding operations.However, handwriting all variants of these operations is time consuming and not amenable to optimizations like kernel fusion.For this reason, we also propose a methodology to automatically lower embedding operations to TMU - CPU code using MLIR.This compilation path enables speeding up the embedding codes found in machine learning frameworks such as TensorFlow and PyTorch.
 `,
-    `
-TL;DR: Innovation in AI talk happening THIS Thursday, 2/22, at 6 PM in room 32-144! Please RSVP here.
+    `TL;DR: Innovation in AI talk happening THIS Thursday, 2/22, at 6 PM in room 32-144! Please RSVP here.
 
 In the coming months, MIT Hacking Medicine is hosting a speaker series with topics in technology and healthcare innovation.
 
@@ -45,8 +43,7 @@ Thursday, 3/7, 5 PM: Susan Conover, CEO, Piction Health
 We’ll be holding weekly speaker series events on Thursdays at 5 PM throughout March and the beginning of April (3/7 - 4/11), so stay tuned for more details!
 
 bcc’d to all dorms, grand-hack-blue for bc-talk`,
-    `
-Campus Freedom of Expression: Basic Principles and Current Controversies (register)
+    `Campus Freedom of Expression: Basic Principles and Current Controversies (register)
 Monday, February 26 
 4:00 to 5:00 p.m. ET, Room 45-801
 
@@ -74,6 +71,14 @@ TBA
 Ryan Unger, Princeton
 `
 ]
+
+
+texts = texts.map(text =>
+    text.split('\n')
+        .map(line => line.trim().endsWith('<br/>') ? line : line + '<br/>')
+        .join('\n')
+);
+
 
 export const events = [
     {
