@@ -3,9 +3,7 @@
 	import resume from '$lib/assets/Andi_Resume_Aug_11.pdf';
 </script>
 
-<div
-	class="relative flex flex-col sm:flex-row mt-12 mx-5 sm:mx-10 md:mx-20 lg:mx-40 xl:mx-80 justify-between"
->
+<div class="relative flex flex-col sm:flex-row">
 	<div>
 		<div class="text-5xl mt-4 ml-2">Andi Liu 刘安迪</div>
 		<p class="mt-4">
