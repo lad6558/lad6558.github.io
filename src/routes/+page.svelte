@@ -3,6 +3,11 @@
 	import resume from '$lib/assets/Andi_Resume_Aug_11.pdf';
 </script>
 
+<svelte:head>
+	<title>Andi Liu</title>
+	<meta name="description" content="Hi! This is Andi Liu, a CS undergrad from MIT" />
+</svelte:head>
+
 <div class="relative flex flex-col sm:flex-row">
 	<div>
 		<div class="text-5xl mt-4 ml-2">Andi Liu 刘安迪</div>
