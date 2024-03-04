@@ -1,6 +1,6 @@
 <script>
 	import profilePic from '$lib/assets/Profile Pic.png';
-	import resume from '$lib/assets/Andi_Resume_Aug_11.pdf';
+	import resume from '$lib/assets/Andi_Resume_Jan_25.pdf';
 </script>
 
 <svelte:head>
