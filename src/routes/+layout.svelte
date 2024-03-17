@@ -10,14 +10,17 @@
 <div
 	class="bg-white text-black dark:bg-slate-800 dark:text-slate-300 min-h-screen transition-all duration-300"
 >
-	<nav class="flex flex-row pt-4 font-semibold text-lg">
-		<div class="flex flex-row space-x-8">
-			<a href="/"> Home </a>
-			<a href="/blogs"> Blogs </a>
-			<a href="/projects"> Projects </a>
+	<nav class="flex flex-row py-4 text-lg justify-between items-center px-4">
+		<div class="text-4xl font-black hidden md:block">
+			<a href="/">Andi Liu 刘安迪</a>
 		</div>
-		<div>
-			<button on:click={toggleDarkMode}>
+		<div class="text-4xl font-black block md:hidden">
+			<a href="/">Andi Liu</a>
+		</div>
+		<div class="flex flex-row space-x-6">
+			<a href="/blogs" class="hover:text-blue-500"> Blogs </a>
+			<a href="/projects" class="hover:text-blue-500"> Projects </a>
+			<button on:click={toggleDarkMode} class="hover:text-blue-500">
 				<!-- By importing svg directly, enable inheritance of text color -->
 				<svg
 					transition:fade
@@ -55,8 +58,9 @@
 			</button>
 		</div>
 	</nav>
-	<div class="divider"></div>
-	<main class="flex">
+	<div class="border border-gray-100 dark:border-gray-700 mb-4"></div>
+	<!-- <div class="divider"></div> -->
+	<main class="flex flex-row justify-center items-center">
 		<slot />
 	</main>
 </div>
