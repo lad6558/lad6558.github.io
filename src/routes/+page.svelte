@@ -15,14 +15,14 @@
 		<img class="h-80 w-64 hidden dark:block" src={profilePicDark} alt="Andi" />
 	</div>
 
-	<div class="flex flex-col items-center justify-center md:w-[30rem]">
+	<div class="mt-4 flex flex-col items-center justify-center md:w-[34rem] px-8">
 		<!-- <div class="text-4xl mt-4 ml-2 font-medium">Andi Liu 刘安迪</div> -->
-		<p class="mt-4 block dark:hidden">
+		<p class="block dark:hidden">
 			Hi! I am Andi Liu. I study at MIT, majoring in Computer Science.
 			<br />
 			In my free time I enjoy blogging and building software.
 		</p>
-		<p class="mt-4 hidden dark:block">
+		<p class="hidden dark:block">
 			Hi! I am Andi Liu, builder of software, master of the undead. (i.e. I own a pet skull named
 			Yuri after Yorick from Hamlet)
 			<br />
