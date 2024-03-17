@@ -10,7 +10,7 @@
 <div
 	class="bg-white text-black dark:bg-slate-800 dark:text-slate-300 min-h-screen transition-all duration-300"
 >
-	<nav class="flex flex-row pt-4 font-semibold text-lg pl-16">
+	<nav class="flex flex-row pt-4 font-semibold text-lg">
 		<div class="flex flex-row space-x-8">
 			<a href="/"> Home </a>
 			<a href="/blogs"> Blogs </a>
@@ -56,7 +56,7 @@
 		</div>
 	</nav>
 	<div class="divider"></div>
-	<main class="flex px-8 md:px-16">
+	<main class="flex">
 		<slot />
 	</main>
 </div>

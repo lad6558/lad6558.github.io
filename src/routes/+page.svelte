@@ -9,7 +9,12 @@
 	<meta name="description" content="Hi! This is Andi Liu, a CS undergrad from MIT" />
 </svelte:head>
 
-<div class="relative flex flex-col sm:flex-row">
+<div class="relative flex flex-col md:flex-row mx-auto space-x-0 md:space-x-8">
+	<div class="flex items-center justify-center">
+		<img class="h-80 w-64 dark:hidden" src={profilePic} alt="Andi" />
+		<img class="h-80 w-64 hidden dark:block" src={profilePicDark} alt="Andi" />
+	</div>
+
 	<div>
 		<div class="text-4xl mt-4 ml-2 font-medium">Andi Liu 刘安迪</div>
 		<p class="mt-4 block dark:hidden">
@@ -43,10 +48,5 @@
 			>
 			<!-- <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="random/page-test">LinkedIn</a> -->
 		</p>
-	</div>
-
-	<div class="ml-8">
-		<img class="h-80 w-64 dark:hidden" src={profilePic} alt="Andi" />
-		<img class="h-80 w-64 hidden dark:block" src={profilePicDark} alt="Andi" />
 	</div>
 </div>
