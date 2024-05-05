@@ -13,6 +13,11 @@
 		</a>
 	</li>
 	<li>
-		<p>TimeTrace</p>
+		<a
+			href="https://chromewebstore.google.com/detail/timetrace/kmnfpbhpiadgjmbhajleoghenphldppi"
+			class="underline hover:text-blue-500"
+		>
+			TimeTrace
+		</a>
 	</li>
 </ul>
