@@ -78,10 +78,14 @@ I began interrupting him whenever I didn’t understand something. "Question!" "
 His responses like this became frequent, and I couldn’t help but ask, "If these programming principles you advocate are so good, why haven’t they been widely adopted in the industry?" He would then pose solemnly, arguing, "Good design has no correlation with wide adoption!" and then he would start telling stories about "what the IBM vice president personally told him," such as "the x86 system was adopted purely because it was terrible," and so on, filling the classroom with a lively atmosphere.
 <br>
 
+<figure>
+
 ![GJS lecturing in front of slides with a giraffe](/blogs/sussman/GJS_giraffe.jpeg)
 
-<figcaption> One of the rare slides with images and English text. He discusses how the evolution of giraffe blood vessels can inspire programming. </figcaption>
 <br>
+
+<figcaption> One of the rare slides with images and English text. He discusses how the evolution of giraffe blood vessels can inspire programming. </figcaption>
+</figure>
 
 My routine of asking questions became established, and one day after class, he proudly announced, "We have a questioner in our class!" From then on, every time he spoke, he would pause to glance at me, waiting for my query before continuing. Sometimes after class, he would say, "Thank you for asking so many questions—you allow me to philosophize, and slow me down just the right amount so that others can understand." One time when I had to leave in the middle of a session, he would declare, "Our questioner has disappeared! Someone else has to ask all those questions!" Having received his personal approval, I became even more bold, relentlessly questioning his design principles and innovations before letting him continue. He indeed needed someone to ask questions—I had indeed heard from others that without my inquiries, the lectures were incomprehensible.
 <br>
@@ -661,7 +665,7 @@ But the hardest part is figuring out what you want."
 
 <figure>
 
-![End-of-class group photo](/blogs/sussman/group_photo.jpeg)
+![Six people that remained after end-of-class](/blogs/sussman/group_photo.jpeg)
 <br>
 
 <figcaption>
