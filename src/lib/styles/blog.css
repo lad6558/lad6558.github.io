@@ -2,6 +2,8 @@ h4 {
 	font-size: 1.5em;
 	font-weight: 600;
 	line-height: 2;
+	/* more vertical space */
+	margin: 1em 0 0.5em;
 }
 
 a:hover,
@@ -15,7 +17,7 @@ p > a {
 }
 
 main {
-	line-height: 1.4;
+	line-height: 1.5;
 	font-size: 18px;
 }
 
@@ -42,4 +44,8 @@ blockquote {
 	border-left: 5px solid #ccc;
 	background-color: #f9f9f9;
 	color: #333;
+}
+
+figure {
+	margin: 1em 0 1.5em;
 }

@@ -7,8 +7,6 @@ published: true
 
 (The following texts is translated by ChatGPT from Chinese, so misquotes and errors are possible. You can find the original Chinese version [here](https://mp.weixin.qq.com/s/op4wYaxSAWe7eUhV7Vth6A). )
 
-<br>
-
 #### Part One
 
 > Back when we programmers debugged over the phone...
@@ -28,14 +26,10 @@ Fortunately, the old guy doesn’t understand our whisperings in Chinese. He cal
 
 ![My sketch of Sussman](/blogs/sussman/sketch.jpg)
 
-<br>
-
 <figcaption>
 My sketch of Sussman. Whenever I don’t understand something in class, I end up doodling in my notes.
 </figcaption>
 </figure>
-
-<br>
 
 Gerald Jay Sussman, 76, a professor in the MIT EECS Department, inventor of the Scheme programming language, author of "Structure and Interpretation of Computer Programs (SICP)" and "Software Development for Flexibility (SDF)," both classics in the CS curriculum. If we compare Python to English, then Scheme would be Latin: deeply influential and clearly structured, yet archaic and seldom used.
 
@@ -57,14 +51,10 @@ He flipped through the slides one by one; the presentation contained only code, 
 
 ![Typical slide of the old guy](/blogs/sussman/mono_slides.jpeg)
 
-<br>
-
 <figcaption>
 Typical slide of the old guy. It features monochromatic code, occasionally marked by annotations that seem to amuse him 
 </figcaption>
 </figure>
-
-<br>
 
 #### Part Two
 
@@ -76,19 +66,15 @@ I began interrupting him whenever I didn’t understand something. "Question!" "
 <br>
 
 His responses like this became frequent, and I couldn’t help but ask, "If these programming principles you advocate are so good, why haven’t they been widely adopted in the industry?" He would then pose solemnly, arguing, "Good design has no correlation with wide adoption!" and then he would start telling stories about "what the IBM vice president personally told him," such as "the x86 system was adopted purely because it was terrible," and so on, filling the classroom with a lively atmosphere.
-<br>
 
 <figure>
 
 ![GJS lecturing in front of slides with a giraffe](/blogs/sussman/GJS_giraffe.jpeg)
 
-<br>
-
 <figcaption> One of the rare slides with images and English text. He discusses how the evolution of giraffe blood vessels can inspire programming. </figcaption>
 </figure>
 
 My routine of asking questions became established, and one day after class, he proudly announced, "We have a questioner in our class!" From then on, every time he spoke, he would pause to glance at me, waiting for my query before continuing. Sometimes after class, he would say, "Thank you for asking so many questions—you allow me to philosophize, and slow me down just the right amount so that others can understand." One time when I had to leave in the middle of a session, he would declare, "Our questioner has disappeared! Someone else has to ask all those questions!" Having received his personal approval, I became even more bold, relentlessly questioning his design principles and innovations before letting him continue. He indeed needed someone to ask questions—I had indeed heard from others that without my inquiries, the lectures were incomprehensible.
-<br>
 
 #### Part Three
 
@@ -101,7 +87,6 @@ At the start of the semester, as Scheme was a niche programming language, it was
 <br>
 
 During a private conversation, he proudly stated that he had seen every bug imaginable and could program much faster than us novices. I mentioned that he wasn’t typing as quickly as he used to. He waved his hand dismissively, "All people will break, and when they do, they will be very broken. I am not broken yet."
-<br>
 
 #### Part Four
 
@@ -168,7 +153,6 @@ I was moved by the beauty and simplicity of the theory for two seconds. "Then wh
 <br>
 
 He was clearly not prepared for such a question, so he shifted to discussing the difference between pleasures bestowed by nature and those created artificially, which I found unconvincing. Neither of us had a good answer, but we pursue knowledge anyway.
-<br>
 
 #### Part Five
 
@@ -333,8 +317,6 @@ A few days later, I received his reply - in Scheme of course.
 
 > Philosophy is meant to be attacked, because it is never "correct". What is more important is that it is always OK to attack ideas, so long as we do not attack the people who have those ideas.
 
-<br>
-
 <figure>
 
 ```scheme
@@ -422,21 +404,16 @@ A few days later, I received his reply - in Scheme of course.
 ;; experience.
 ```
 
-<br>
-
 <figcaption>
 Sussman thinks after AI replaces programmers we would program for artistic purpose. 
 </figcaption>
 
 </figure>
 
-<br>
-
 The old guy prides himself on being a scientist, engineer, and a fighter in the free software movement. He’s an engineer, so he must build what he talks about. He’s a scientist, so he must be able to explain what he builds. As a free software advocate, he believes all code should withstand scrutiny. His reply aligns with his own standards.
 <br>
 
 But he is indeed stubborn. To win our argument, he’d deny the practical value of his job.
-<br>
 
 #### Part Seven
 
@@ -450,7 +427,6 @@ I felt ashamed. I always felt like I was choosing between the moon and sixpence,
 <br>
 
 Or maybe it's because I'm not an old white man. As an international student, I carry a heavier burden than he does.
-<br>
 
 #### Part Eight
 
@@ -470,19 +446,15 @@ Once, he asked me to explain the Chinese characters on a tea package. After I ex
 <br>
 
 I skimmed the book. She is right. I can read that.
-<br>
 
 <figure>
 
 ![Cover of the book, I can read that! by Julie Mazel Sussman](/blogs/sussman/book_cover.jpeg)
-<br>
 
 <figcaption>
 I can read that!
 </figcaption>
 </figure>
-
-<br>
 
 Once, while we were chatting, a lady with bunny ears appeared at the door.
 <br>
@@ -503,13 +475,11 @@ Even though we got along well personally, my dissatisfaction with his teaching g
 <figure>
 
 ![My complaints in my notes](/blogs/sussman/complaints.jpg)
-<br>
 
 <figcaption>
 As I mentioned, when I don’t understand, I start doodling. You can see the evolution of my artistic style in my notes.
 </figcaption>
 </figure>
-<br>
 
 “He talks about too many things.”
 <br>
@@ -603,7 +573,6 @@ When I left the office, he said:
 <br>
 
 “No matter whether you continue to take this class, you are always welcome to come to this office and have tea.”
-<br>
 
 #### Part Eleven
 
@@ -666,17 +635,12 @@ But the hardest part is figuring out what you want."
 <figure>
 
 ![Six people that remained after end-of-class](/blogs/sussman/group_photo.jpeg)
-<br>
 
 <figcaption>
 This group photo contains only 50% students. There’s also an old guy, his PhD, and his TA.</figcaption>
 </figure>
-<br>
-
-<br>
 
 I still don’t know what my path of "doing real things" will look like, or how to walk it. I only know that I need to meet enough people and stay open-minded to the most contradictory ideas to form my own language.
-<br>
 
 #### Part Twelve
 

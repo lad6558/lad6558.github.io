@@ -60,7 +60,7 @@
 	</nav>
 	<div class="border border-gray-100 dark:border-gray-700 mb-4"></div>
 	<!-- <div class="divider"></div> -->
-	<main class="flex flex-row justify-center items-center">
+	<main class="flex flex-row justify-center items-center max-w-full">
 		<slot />
 	</main>
 </div>
