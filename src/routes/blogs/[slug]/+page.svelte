@@ -11,9 +11,9 @@
 </svelte:head>
 
 <main class="max-w-[42em] mx-8 mb-12 mt-4">
-	<h1 class="text-4xl font-bold mb-1">{meta.title}</h1>
+	<h1 class="text-4xl font-bold mb-2">{meta.title}</h1>
 	<p class="text-slate-500 mb-1">{meta.description}</p>
-	<p class="text-slate-500 mb-4 text-sm">{meta.date}</p>
+	<p class="text-slate-500 mb-8 text-sm">{meta.date}</p>
 
 	<Content />
 </main>

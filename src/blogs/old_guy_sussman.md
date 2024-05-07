@@ -7,7 +7,11 @@ published: true
 
 (The following texts is translated by ChatGPT from Chinese, so misquotes and errors are possible. You can find the original Chinese version [here](https://mp.weixin.qq.com/s/op4wYaxSAWe7eUhV7Vth6A). )
 
+<br>
+
 #### Part One
+
+> Back when we programmers debugged over the phone...
 
 "Rumor has it, this old guy is tough."
 
@@ -46,6 +50,8 @@ Of course, I only learned these things later. My reason for choosing the Large S
 <br>
 
 He flipped through the slides one by one; the presentation contained only code, no English. He explained from the first line to the last, then flipped to the next page, repeat. As he spoke, he reminisced about the old days, like "back when we programmers debugged over the phone," "when I was writing Fortran on the XX-XX machine at IBM," and "the night in the '70s when my buddy Guy Steele and I wrote the first Scheme interpreter..." When class ended, he declared, "Alright, that is the entirety of the Scheme language. Since I have shared everything this time, I won’t teach it again. Class dismissed."
+
+<br>
 
 <figure>
 
@@ -485,6 +491,8 @@ Then she noticed me, and I awkwardly waved. She might have been shy and walked a
 
 #### Part Nine
 
+> He is logically consistent with himself, but he rarely acknowledges others' logic. That’s why he invented his own language and wrote his own interpreter. HIS language ran using HIS interpreter on HIS machine acknowledges him.
+
 Even though we got along well personally, my dissatisfaction with his teaching grew. Once in class, he excitedly talked about a program he developed last summer. “Do not expect this to be easy. I don’t even understand what is happening.” It was not easy. I didn’t understand a thing from that lecture. My notes were full of complaints.
 <br>
 
@@ -595,7 +603,7 @@ When I left the office, he said:
 
 #### Part Eleven
 
-> _His_ Scheme, the programming language he invented, the simplest, freest language, wasn’t the language just himself?
+> _His_ Scheme, the programming language he invented—the simplest, freest of languages—wasn’t this language, in essence, just himself?
 
 I didn't attend the old guy's classes for the next two or three weeks, but I went to his last lecture of the semester. The class was titled "Why Programming".
 <br>
@@ -627,7 +635,7 @@ Indeed, the old guy was clear when it was time to break his own "laws." That’s
 The old guy then listed the teachers and friends who had greatly influenced him, with a series of black-and-white photos in front of him. Marvin Minsky, Seymour Papert, John McCarthy, Richard Stallman, Richard Feynman (Feynman invited him, and they taught physics together for a year, under the condition that Feynman would have lunch with him after lectures)...
 <br>
 
-I heard how each person’s theories and work influenced him. It was a fascinating feeling, seeing the most rigorous and mechanical theories backed by vivid individuals and their lives. The old guy’s theories filled my senses: his composition and use of color were influenced by which era, which movements; his musical style and choice of instruments stemmed from which culture, which region; his writing style, his choice of words, his language... his language! _His_ Scheme, the programming language he invented, the simplest, freest language, wasn’t the language just himself?
+I heard how each person’s theories and work influenced him. It was a fascinating feeling, seeing the most rigorous and mechanical theories backed by vivid individuals and their lives. The old guy’s theories filled my senses: his composition and use of color were influenced by which era, which movements; his musical style and choice of instruments stemmed from which culture, which region; his writing style, his choice of words, his language... his language! _His_ Scheme, the programming language he invented—the simplest, freest of languages—wasn’t this language, in essence, just himself?
 <br>
 
 The old guy's Scheme is the Latin of programming languages. It's a language that only the smartest among a smart group, programmers, can handle. It’s the language of the elite, elegant and mentally stimulating, but in this era, it has no practical production value, no large audience. But I can't say it's merely the language of peasants. This is also the conflict between symbolism and connectionism—symbolism cares only about human intelligence, while connectionism cares only about experiments and stacking computational power...
