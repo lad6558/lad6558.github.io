@@ -10,7 +10,9 @@
 <div
 	class="bg-white text-black dark:bg-slate-800 dark:text-slate-300 min-h-screen transition-all duration-300"
 >
-	<nav class="flex flex-row py-4 text-lg justify-between items-center px-4">
+	<nav
+		class="bg-white dark:bg-slate-800 fixed top-0 w-full flex flex-row py-4 text-lg justify-between items-center px-4 border-b border-gray-100 dark:border-gray-700"
+	>
 		<div class="text-4xl font-black hidden md:block">
 			<a href="/">Andi Liu 刘安迪</a>
 		</div>
@@ -58,8 +60,7 @@
 			</button>
 		</div>
 	</nav>
-	<div class="border border-gray-100 dark:border-gray-700 mb-4"></div>
-	<!-- <div class="divider"></div> -->
+	<div class="h-24"></div>
 	<main class="flex flex-row justify-center items-center max-w-full">
 		<slot />
 	</main>
