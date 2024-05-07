@@ -171,3 +171,86 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover {
 	color: inherit;
 	text-decoration: none;
 }
+
+/* Dark mode styles for PrismJS */
+.dark pre[class*='language-'],
+.dark code[class*='language-'] {
+	color: #cbd5e1; /* Lighter text color for better visibility */
+	background: #2c3e50; /* Slightly lighter than bg-slate-800 for distinction */
+	text-shadow: none; /* Removing text shadow for cleaner text */
+}
+
+.dark .token.comment,
+.dark .token.prolog,
+.dark .token.doctype,
+.dark .token.cdata {
+	color: #8f9cb3; /* A less muted, more visible blue-grey */
+}
+
+.dark .token.punctuation {
+	color: #89ddff; /* A brighter, more visible color for punctuation */
+}
+
+.dark .token.namespace {
+	opacity: 1; /* Increased opacity for namespace, which might be too dim otherwise */
+}
+
+.dark .token.property,
+.dark .token.tag,
+.dark .token.boolean,
+.dark .token.number,
+.dark .token.constant,
+.dark .token.symbol,
+.dark .token.deleted {
+	color: #ff79c6; /* A bright pink for properties, tags, etc. */
+}
+
+.dark .token.selector,
+.dark .token.attr-name,
+.dark .token.string,
+.dark .token.char,
+.dark .token.builtin,
+.dark .token.inserted {
+	color: #50fa7b; /* A light green for better visibility */
+}
+
+.dark .token.operator,
+.dark .token.entity,
+.dark .token.url,
+.language-css .dark .token.string,
+.style .dark .token.string {
+	color: #ffcb6b; /* A light orange for operators, entities, and URLs */
+}
+
+.dark .token.atrule,
+.dark .token.attr-value,
+.dark .token.keyword {
+	color: #c792ea; /* A soft purple for CSS atrules, values, and keywords */
+}
+
+.dark .token.function {
+	color: #66d9ef; /* A distinct cyan for functions */
+}
+
+.dark .token.regex,
+.dark .token.important,
+.dark .token.variable {
+	color: #f8f8f2; /* A very light grey for regex, important, and variables */
+}
+
+.dark .token.important,
+.dark .token.bold {
+	font-weight: bold; /* Ensuring bold is effective in dark mode */
+}
+
+.dark .token.italic {
+	font-style: italic; /* Ensuring italic is visible */
+}
+
+/* Toolbar styles in dark mode */
+.dark div.code-toolbar > .toolbar > .toolbar-item > a,
+.dark div.code-toolbar > .toolbar > .toolbar-item > button,
+.dark div.code-toolbar > .toolbar > .toolbar-item > span {
+	background: rgba(160, 160, 160, 0.1); /* Slightly darker toolbar items for contrast */
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+}
