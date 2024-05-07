@@ -18,7 +18,7 @@
 	<div class="mt-4 flex flex-col items-center justify-center md:w-[34rem] px-8">
 		<!-- <div class="text-4xl mt-4 ml-2 font-medium">Andi Liu 刘安迪</div> -->
 		<p class="block dark:hidden">
-			Hi! I am Andi Liu. I study at MIT, majoring in Computer Science.
+			Hi! I am Andi Liu. I study Computer Science at MIT.
 			<br />
 			In my free time I enjoy blogging and building software.
 		</p>
