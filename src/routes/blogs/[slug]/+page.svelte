@@ -7,7 +7,8 @@
 </script>
 
 <svelte:head>
-	<title>{data.meta.title}</title>
+	<title>{meta.title}</title>
+	<meta name="description" content={meta.description} />
 </svelte:head>
 
 <section class="max-w-prose w-full mb-12 mt-4 px-4">
