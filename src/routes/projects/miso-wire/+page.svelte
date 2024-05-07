@@ -14,6 +14,14 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Miso the Mail Sorter</title>
+	<meta
+		name="description"
+		content="The wireframe for Miso the Mail Sorter, an email helper that learns your preferences of events in emails."
+	/>
+</svelte:head>
+
 <div class="bg-slate-800 h-screen flex justify-center items-center text-black w-full">
 	<!-- Miso main window -->
 	<div class="bg-slate-100 w-3/4 h-3/4 rounded-md flex flex-row shadow-2xl my-30 mx-12">

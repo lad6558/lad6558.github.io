@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>Andi's Blogs</title>
-	<meta name="description" content="Read Andi Liu's latest blogs!" />
+	<meta name="description" content="Read Andi Liu's latest blogs about Tech, Life, and People" />
 </svelte:head>
 
 <section>

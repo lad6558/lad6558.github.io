@@ -1,12 +1,15 @@
 <script>
-	import profilePic from '$lib/assets/Profile Pic.png';
+	import profilePic from '$lib/assets/Profile Pic.jpeg';
 	import profilePicDark from '$lib/assets/Profile Pic Dark.jpeg';
 	import resume from '$lib/assets/Andi_Resume_Jan_25.pdf';
 </script>
 
 <svelte:head>
 	<title>Andi Liu</title>
-	<meta name="description" content="Hi! This is Andi Liu, a CS undergrad from MIT" />
+	<meta
+		name="description"
+		content="Hi! This is Andi Liu, a CS undergrad from MIT. You can check out my blogs and software projects here!"
+	/>
 </svelte:head>
 
 <div class="relative flex flex-col md:flex-row mx-auto space-x-0 md:space-x-8">
