@@ -60,3 +60,17 @@ blockquote {
 figure {
 	margin: 1em 0 1.5em;
 }
+
+h1:target,
+h2:target,
+h3:target,
+h5:target,
+h6:target {
+	padding-top: 70px; /* Adjust this value to match your navbar height */
+	margin-top: -70px; /* This should be the same value but negative */
+}
+
+h4:target {
+	padding-top: 70px;
+	margin-top: calc(-70px + 1em);
+}

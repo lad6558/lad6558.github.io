@@ -2,7 +2,7 @@
 	export let data;
 	const { meta, Content } = data;
 
-	import '$lib/styles/blog.css';
+	import '$lib/styles/blog.scss';
 	import '$lib/styles/prism.css';
 </script>
 
