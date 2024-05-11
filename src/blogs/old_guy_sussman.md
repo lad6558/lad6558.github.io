@@ -5,6 +5,12 @@ date: '2023-5-15'
 published: true
 ---
 
+@lad6558
+
+andiliu.me \
+
+~~test~~ [^1]
+
 (The following texts is translated by ChatGPT from Chinese, so misquotes and errors are possible. You can find the original Chinese version [here](https://mp.weixin.qq.com/s/op4wYaxSAWe7eUhV7Vth6A). )
 
 #### Part One
@@ -12,8 +18,6 @@ published: true
 > Back when we programmers debugged over the phone...
 
 "Rumor has it, this old guy is tough."
-
-<br>
 
 "Yes, he does as he pleases... No recording, no slides, no regular office hours. I heard the department lets him teach this course just because he’s Sussman."
 
@@ -61,7 +65,7 @@ Typical slide of the old guy. It features monochromatic code, occasionally marke
 Afterward, every class felt like it was on 1.5x speed, with the old guy explaining the code from the first line to the last. This was _his_ language, one he had been writing for nearly 50 years; he could read Scheme faster than I could read English. Once he had finished all the slides, he would look at his watch, chuckle, and say, "Haha, I finished five minutes early again today," leaving a group of students completely baffled. After a few classes, the once bustling lecture hall dwindled to just a dozen students. He proudly announced, "This is the ideal class size I’ve always wanted." With each class, I understood less and less, and I had to do something.
 <br>
 
-I began interrupting him whenever I didn’t understand something. "Question!" "Yes, sir!" "You argue that this is a better design. But I think…" I’m usually not interested in technical details. What interests me is why a design is good, what innovation it brings. He patiently answered, sometimes spending up to ten minutes on a dialogue between him and me. He always managed to include personal opinions in his answers, such as "I think this clearly shows the stupidity of Python," "What these modern programming languages are doing are invented by Scheme thirty years ago."
+I began interrupting him whenever I didn’t understand something. "Question!" "Yes, sir!" "You argue that this is a better design. But I think…" I’m usually not interested in technical details. What interests me is why a design is good, what innovation it brings. He patiently answered, sometimes spending up to ten minutes on a dialogue between him and me. He always managed to include personal opinions in his answers, such as "I think this clearly shows the stupidity[^1] of Python," "What these modern programming languages are doing are invented by Scheme thirty years ago."
 
 <br>
 
@@ -490,7 +494,7 @@ As I mentioned, when I don’t understand, I start doodling. You can see the evo
 “He’s both an engineer and a scientist, but he’s not a good teacher. The conversations I have with him as an engineer are more fruitful than those I have with him as a student and teacher.”
 <br>
 
-“He is logically consistent with himself, but he rarely acknowledges others' logic. That’s why he invented his own language and wrote his own interpreter. HIS language ran using HIS interpreter on HIS machine acknowledges him.”
+“He is logically consistent with himself, but he rarely acknowledges others' logic. That’s why he invented his own language and wrote his own interpreter. HIS language[^1] ran using HIS interpreter on HIS machine acknowledges him.”
 <br>
 
 #### Part Ten
@@ -657,3 +661,6 @@ Some say he always talks but never listens. But if there is one good thing about
 <br>
 
 What if... personal happiness is _not_ all I want?
+
+[^1]: Test text
+[^2]: Test text 2

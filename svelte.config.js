@@ -5,12 +5,16 @@ import { mdsvex } from 'mdsvex'
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import remarkBreaks from 'remark-breaks';
+import remarkSectionize from 'remark-sectionize';
+import remarkGithub from 'remark-github';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
-	remarkPlugins: [remarkGfm],
-	rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'wrap' }]]
+	remarkPlugins: [[remarkGithub, { repository: "https://github.com/remarkjs/remark-github" }]],
+	// remarkPlugins: [remarkGfm, remarkBreaks, remarkSectionize],
+	// rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'wrap' }]]
 }
 
 /** @type {import('@sveltejs/kit').Config} */
