@@ -1,4 +1,4 @@
-import{s as d,e as c,a as u,h as f,c as h,d as o,b,g,f as i,i as v,j as m,n}from"../chunks/scheduler.-wk-EB-r.js";import{S as x,i as _}from"../chunks/index.bmluPzg7.js";function w(p){let e,r,t,l=`<p>Some personal projects I have been working on:</p> <li><a href="https://dormsoup.mit.edu" class="underline hover:text-blue-500">DormSoup</a> (Need MIT
+import{s as d,e as c,a as u,h as f,c as h,d as o,b,g,f as i,i as v,j as m,n}from"../chunks/scheduler.-wk-EB-r.js";import{S as x,i as _}from"../chunks/index.j7hhrIMN.js";function w(p){let e,r,t,l=`<p>Some personal projects I have been working on:</p> <li><a href="https://dormsoup.mit.edu" class="underline hover:text-blue-500">DormSoup</a> (Need MIT
 		email to access)</li> <li><a href="/projects/miso-wire" class="underline hover:text-blue-500">Miso the Mail Sorter</a> (Wireframe)</li> <li><a href="https://chromewebstore.google.com/detail/timetrace/kmnfpbhpiadgjmbhajleoghenphldppi" class="underline hover:text-blue-500">TimeTrace</a>
 		(Built with my
 		<a href="https://timetrace.ai/about" class="underline hover:text-blue-500">amazing team</a>. A
