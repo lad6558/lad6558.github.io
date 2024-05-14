@@ -17,6 +17,10 @@ published: true
 
 #### Zero
 
+> My response at the time was that poetry is useless, just like the peacock's feathers. But the female peacock prefers male peacocks with beautiful, colorful tails because it shows the male's capabilities: being able to flaunt such costly feathers in front of predators and still survive to this day surely means something.
+>
+> Similarly, those who are idle enough to study how to rhyme in speech are either of extraordinary birth or exceptional ability, both of which make them quality partners. Thus, the genes for poetry continue to be passed down.
+
 What area in Computer Science do I want to do?
 
 Four years ago, I would have definitely said machine learning.
@@ -79,6 +83,8 @@ A few days ago, I came across a term from an article by my friend [Mingyang Deng
 It felt like we were making Frankenstein.
 
 #### Two
+
+> Eventually, humanity will be like a peacock, flaunting its costly self-esteem, pretty but otherwise useless. We'll all become like the peacock's feathers, like poetry.
 
 Last semester, at a lecture, I met a classmate I hadn't seen since orientation. He asked me if I was still advocating for robot rights.
 
@@ -195,6 +201,10 @@ Maybe if I had put Minecraft in the first line, my summer experience would have 
 
 #### Four
 
+> I see my struggle with whether to study machine learning as a battle with the "big model monster," like Don Quixote's battle with the windmills.
+>
+> The big model monster doesn't care whether I study machine learning; just like the windmill, it symbolizes inevitable technological progress.
+
 While doing frontend, I came across a YouTube video about the best personality to become a UI/UX designer.
 
 It said that the most important ability for a UI/UX designer is the ability to communicate with both technical and non-technical people, as well as a curiosity to understand the process a user goes through when using a product, a willingness to conduct Empathy Interviews to listen seriously, and to write down the other person's thought patterns... I care about these things!
@@ -211,7 +221,7 @@ The only two things it can't do are decide whether a button looks better moved t
 
 By then, my advantage will be that I have many opinions about what is beautiful, and I am just as foolish as any other human. I can even cook tomato and eggs, and today's robots can barely open doors, let alone cook.
 
-I see my struggle with whether to study machine learning as a battle with the "big model monster." I always feel like my battle with the big model monster is similar to Don Quixote's battle with the windmills.
+I see my struggle with whether to study machine learning as a battle with the "big model monster," like Don Quixote's battle with the windmills.
 
 The big model monster doesn't care whether I study machine learning; just like the windmill, it symbolizes inevitable technological progress.
 
