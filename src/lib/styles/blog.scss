@@ -12,7 +12,15 @@ a:active {
 	text-decoration: underline;
 }
 
+p + p {
+	margin-top: 1.5em;
+}
+
 p > a {
+	color: #0070f3;
+}
+
+small > a {
 	color: #0070f3;
 }
 
@@ -31,14 +39,16 @@ img {
 	margin-right: auto;
 }
 
-figcaption {
+figcaption,
+small {
 	font-size: 0.8em;
 	text-align: center;
 	margin-top: 0.5em;
 	color: #888;
 }
 
-.dark figcaption {
+.dark figcaption,
+small {
 	color: #bbb;
 }
 
