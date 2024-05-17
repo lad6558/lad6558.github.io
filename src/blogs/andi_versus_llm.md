@@ -13,7 +13,7 @@ published: true
 
 </figure>
 
-(The following texts is translated by ChatGPT from Chinese, so misquotes and errors are possible. You can find [the original Chinese version here](https://mp.weixin.qq.com/s/3mkchyp1Yi-oLaxiMnP5mQ). )
+(The following text is translated by ChatGPT from Chinese, so misquotes and errors are possible. You can find [the original Chinese version here](https://mp.weixin.qq.com/s/3mkchyp1Yi-oLaxiMnP5mQ). )
 
 #### Zero
 
