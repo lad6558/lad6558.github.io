@@ -26,8 +26,13 @@
 			In my free time I enjoy blogging and building software.
 		</p>
 		<p class="hidden dark:block">
-			Hi! I am Andi Liu, builder of software, master of the undead. (i.e. I own a pet skull named
-			Yuri after Yorick from Hamlet)
+			Hi! I am Andi Liu, builder of software, master of the undead <sup
+				class="inline tooltip"
+				data-tip={'i.e. I own a pet skull named Yuri after Yorick from Hamlet'}
+			>
+				{1}
+			</sup>.
+
 			<br />
 			In my free time I enjoy writing and doing theater.
 		</p>
