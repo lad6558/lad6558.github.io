@@ -1,7 +1,7 @@
 <script>
 	import profilePic from '$lib/assets/Profile Pic.jpeg';
 	import profilePicDark from '$lib/assets/Profile Pic Dark.jpeg';
-	import resume from '$lib/assets/Andi_Resume_Jan_25.pdf';
+	import resume from '$lib/assets/Resume_Aug_10_Andi_Liu.pdf';
 </script>
 
 <svelte:head>
@@ -18,8 +18,7 @@
 		<img class="h-80 w-64 hidden dark:block" src={profilePicDark} alt="Andi" />
 	</div>
 
-	<div class="mt-4 flex flex-col items-center justify-center md:w-[34rem] px-8">
-		<!-- <div class="text-4xl mt-4 ml-2 font-medium">Andi Liu 刘安迪</div> -->
+	<div class="mt-4 flex flex-col items-center justify-center md:w-[34rem] px-4">
 		<p class="block dark:hidden">
 			Hi! I am Andi Liu. I study Computer Science at MIT.
 			<br />
@@ -55,7 +54,6 @@
 				class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
 				href="https://www.linkedin.com/in/andi-liu/">LinkedIn</a
 			>
-			<!-- <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="random/page-test">LinkedIn</a> -->
 		</p>
 	</div>
 </div>
