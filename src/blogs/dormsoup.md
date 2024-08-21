@@ -43,6 +43,15 @@ When ChatGPT came out, I thought, instead of hoping students would change their 
 
 We set up a Notion workspace, made a to-do list, and got to work. That summer, we'd come home from our internships, hop on Zoom, and do three hours of pair-programming. Chengyuan worked on the database, search, and connecting to the email inbox, while I worked on the UI, prompt engineering, and talking to Fiverr artists to iterate on designs for our logo and loading screen GIF.
 
+<figure>
+
+![loading animation where spams hop into a bowl](/blogs/dormsoup/loading.gif)
+
+<figcaption>
+Why the name DormSoup? Spam is a type of meat and our website stirs dormspams into an edible format. It is not a reference to the Beautiful Soup Python library, though I like that interpretation as well.
+</figcaption>
+</figure>
+
 Playing around with LLMs was fun, but it wasn't always easy. One of our first problems was getting GPT-4 to figure out the datetime from emails correctly. It usually got the date right but always defaulted to 12:00 AM for the time. We fixed that by using chain-of-thought: extract the time of day first, then the date, then put them together.
 
 Tagging events was another tricky part—GPT-4 would sometimes hallucinate and make up tags that didn't exist. So, we made a multi-stage pipeline where it first summarizes the event, then explains why it should or shouldn't have each tag, and finally gives us the tags. We even had it do this three times and then picked the tags that showed up in all three runs, just to be sure. To save money, we used GPT-3.5 to check if an email actually had an event, and then let GPT-4 handle the details like time and location.
@@ -54,6 +63,6 @@ In the end, we were glad we went with LLMs. There was another group trying to us
 ![Number of users by time](/blogs/dormsoup/stats.png)
 
 <figcaption>
-At the time of writing (Aug 2024), we helped 959 users find the events they were looking for, the peak being the start of the school year. This year we plan to do more marketing. Hopefull that brings more!
+At the time of writing (Aug 2024), we helped 959 users find the events they were looking for, the peak being the start of the school year. This year we plan to do more marketing. Hopefully that brings more!
 </figcaption>
 </figure>
