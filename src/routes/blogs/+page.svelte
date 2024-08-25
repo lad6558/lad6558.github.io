@@ -1,10 +1,31 @@
 <script>
 	export let data;
+
+	const jsonLd = {
+		'@context': 'https://schema.org',
+		'@type': 'Blog',
+		headline: "Andi Liu's Blog",
+		author: {
+			'@type': 'Person',
+			name: 'Andi Liu'
+		},
+		url: 'https://andiliu.me/blogs',
+		blogPost: data.blogs
+			.filter((blog) => blog.published)
+			.map((blog) => ({
+				'@type': 'BlogPosting',
+				headline: blog.title,
+				url: `https://andiliu.me/blogs/${blog.slug}`,
+				datePublished: blog.date,
+				description: blog.description
+			}))
+	};
 </script>
 
 <svelte:head>
 	<title>Andi's Blogs</title>
 	<meta name="description" content="Read Andi Liu's latest blogs about Tech, Life, and People" />
+	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 
 <section>

@@ -10,6 +10,37 @@
 		name="description"
 		content="Hi! This is Andi Liu, a CS undergrad from MIT. You can check out my blogs and software projects here!"
 	/>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Andi Liu",
+			"url": "https://andiliu.me",
+			"image": "https://andiliu.me/app/immutable/assets/Profile%20Pic.49AGY8G_.jpeg",
+			"sameAs": [
+				"https://www.linkedin.com/in/andi-liu/",
+				"https://github.com/lad6558"
+			],
+			"jobTitle": "Computer Science Student",
+			"alumniOf": "MIT",
+			"homeLocation": {
+				"@type": "Place",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Cambridge",
+					"addressRegion": "MA"
+				}
+			},
+			"email": "mailto:andiliu@mit.edu",
+			"description": "Hi! This is Andi Liu, a CS undergrad from MIT. You can check out my blogs and software projects here!",
+			"knowsAbout": ["Software Development", "AI", "Machine Learning", "Blogging", "Theater"],
+			"subjectOf": {
+				"@type": "CreativeWork",
+				"name": "Resume",
+				"url": "https://andiliu.me/app/immutable/assets/Resume_Aug_10_Andi_Liu.pdf"
+			}
+		}
+	</script>
 </svelte:head>
 
 <div class="relative flex flex-col md:flex-row mx-auto space-x-0 md:space-x-8">
