@@ -3,6 +3,7 @@ title: Old Guy Sussman
 description: He wanted to spend his life programming in Scheme. He did just that. He seems happy.
 date: '2023-5-15'
 published: true
+image: '/blogs/sussman/sketch.jpg'
 ---
 
 <script>

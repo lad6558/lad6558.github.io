@@ -3,6 +3,7 @@ title: Andi Versus LLM
 description: Four years ago I wanted to do machine learning. Now, I am no longer sure.
 date: '2023-6-25'
 published: true
+image: '/blogs/versus/Andi_fighting_LLM.jpg'
 ---
 
 <figure>

@@ -1,5 +1,9 @@
 <script>
+	import { formatISO } from 'date-fns';
+
 	export let data;
+
+	const baseUrl = 'https://andiliu.me';
 
 	const jsonLd = {
 		'@context': 'https://schema.org',
@@ -7,17 +11,24 @@
 		headline: "Andi Liu's Blog",
 		author: {
 			'@type': 'Person',
-			name: 'Andi Liu'
+			name: 'Andi Liu',
+			url: baseUrl
 		},
-		url: 'https://andiliu.me/blogs',
+		url: `${baseUrl}/blogs`,
 		blogPost: data.blogs
 			.filter((blog) => blog.published)
 			.map((blog) => ({
 				'@type': 'BlogPosting',
 				headline: blog.title,
-				url: `https://andiliu.me/blogs/${blog.slug}`,
-				datePublished: blog.date,
-				description: blog.description
+				url: `${baseUrl}/blogs/${blog.slug}`,
+				datePublished: formatISO(new Date(blog.date)),
+				description: blog.description,
+				author: {
+					'@type': 'Person',
+					name: 'Andi Liu',
+					url: baseUrl
+				},
+				image: `${baseUrl}${blog.image}`
 			}))
 	};
 </script>
@@ -29,21 +40,29 @@
 </svelte:head>
 
 <section>
-	<ul class="flex flex-col space-y-4">
+	<ul class="space-y-6 px-4">
 		{#each data.blogs as blog}
 			{#if blog.published}
-				<li>
-					<div class="border-2 w-96 px-4 py-2 shadow-xl">
-						<h2 class="font-bold text-lg underline">
-							<a href="/blogs/{blog.slug}">
-								{blog.title}
-							</a>
-						</h2>
-						<p class="text-sm">{blog.description}</p>
-						<p class="text-xs text-slate-400 mt-2">
-							{blog.date}
-						</p>
-					</div>
+				<li class="cursor-pointer">
+					<a
+						href="/blogs/{blog.slug}"
+						class="block transition hover:bg-gray-100 dark:hover:bg-gray-700 p-4 rounded-lg shadow-lg"
+					>
+						<div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+							<img
+								src={blog.image}
+								alt={blog.title}
+								class="w-full md:w-48 h-32 object-cover rounded-lg md:mr-4"
+							/>
+							<div class="flex-1 flex flex-col justify-between">
+								<div>
+									<h2 class="font-bold text-xl text-gray-800 dark:text-slate-200">{blog.title}</h2>
+									<p class="text-sm text-gray-600 dark:text-slate-400 mt-2">{blog.description}</p>
+								</div>
+								<p class="text-xs text-gray-500 dark:text-slate-500 mt-2">{blog.date}</p>
+							</div>
+						</div>
+					</a>
 				</li>
 			{/if}
 		{/each}

@@ -1,14 +1,31 @@
 <script>
 	export let data;
-	const { meta, Content } = data;
+	const { slug, meta, Content } = data;
 
 	import '$lib/styles/blog.scss';
 	import '$lib/styles/prism.css';
+
+	const baseUrl = 'https://andiliu.me';
+	const jsonLd = {
+		'@context': 'https://schema.org',
+		'@type': 'BlogPosting',
+		headline: meta.title,
+		description: meta.description,
+		datePublished: new Date(meta.date).toISOString(),
+		url: `${baseUrl}/blogs/${slug}`,
+		author: {
+			'@type': 'Person',
+			name: 'Andi Liu',
+			url: baseUrl
+		},
+		image: `${baseUrl}${meta.image}` // Assuming `meta.image` contains a relative path to the image
+	};
 </script>
 
 <svelte:head>
 	<title>{meta.title}</title>
 	<meta name="description" content={meta.description} />
+	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 
 <section class="max-w-prose w-full mb-12 mt-4 px-4">
