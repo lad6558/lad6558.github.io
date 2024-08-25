@@ -1,4 +1,4 @@
-import{s as Q,e as i,a as x,t as k,h as q,c as s,g as y,d as l,b as _,f as A,m as L,i as e,j as t,k as B,n as D}from"../chunks/scheduler.1K08FDGZ.js";import{S as J,i as W}from"../chunks/index.raYskaZK.js";const z=""+new URL("../assets/Profile Pic.49AGY8G_.jpeg",import.meta.url).href,F=""+new URL("../assets/Profile Pic Dark.dn_nQ1r8.jpeg",import.meta.url).href,K=""+new URL("../assets/Resume_Aug_10_Andi_Liu.RgfgAQyJ.pdf",import.meta.url).href;function N(O){let o,d,Y=`{
+import{s as Q,e as i,b as x,t as k,h as q,c as s,j as y,f as l,g as _,i as A,p as L,k as e,l as t,m as B,n as D}from"../chunks/scheduler.-BJ44e7c.js";import{S as J,i as W}from"../chunks/index.WevDy0eP.js";const z=""+new URL("../assets/Profile Pic.49AGY8G_.jpeg",import.meta.url).href,F=""+new URL("../assets/Profile Pic Dark.dn_nQ1r8.jpeg",import.meta.url).href,K=""+new URL("../assets/Resume_Aug_10_Andi_Liu.RgfgAQyJ.pdf",import.meta.url).href;function N(O){let o,d,Y=`{
 			"@context": "https://schema.org",
 			"@type": "Person",
 			"name": "Andi Liu",
