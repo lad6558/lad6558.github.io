@@ -11,7 +11,7 @@
 	class="bg-white text-black dark:bg-slate-800 dark:text-slate-300 min-h-screen transition-all duration-300"
 >
 	<nav
-		class="bg-white dark:bg-slate-800 fixed top-0 w-full flex flex-row py-4 text-lg justify-between items-center px-4 border-b border-gray-100 dark:border-gray-700"
+		class="bg-white dark:bg-slate-800 fixed top-0 w-full flex flex-row py-4 text-lg justify-between items-center px-4 border-b border-gray-100 dark:border-gray-700 z-50"
 	>
 		<div class="text-4xl font-black hidden md:block">
 			<a href="/">Andi Liu 刘安迪</a>
@@ -20,8 +20,14 @@
 			<a href="/">Andi Liu</a>
 		</div>
 		<div class="flex flex-row space-x-6">
-			<a href="/blogs" class="hover:text-blue-500"> Blogs </a>
-			<a href="/projects" class="hover:text-blue-500"> Projects </a>
+			<a
+				href="/blogs"
+				class="hover:text-blue-500"
+				on:click={(event) => {
+					event.preventDefault();
+					window.location.href = '/blogs';
+				}}>Blogs</a
+			> <a href="/projects" class="hover:text-blue-500"> Projects </a>
 			<button on:click={toggleDarkMode} class="hover:text-blue-500">
 				<!-- By importing svg directly, enable inheritance of text color -->
 				<svg
