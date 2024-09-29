@@ -1,4 +1,4 @@
-import{s as W,e as g,b as k,t as R,c as b,i as $,g as T,p as L,f as u,k as f,K as ee,m as A,l as d,q as O,n as S,H as se,d as re,j as K,E as Y,N as ie,$ as oe,o as le,a0 as Z,h as ce}from"../chunks/scheduler.n9-W5gwu.js";import{S as j,i as G,g as de,b as V,e as he,t as P,c as z,a as F,m as U,d as B}from"../chunks/index.-ekRDQFN.js";import{e as ue}from"../chunks/each.-oqiv04n.js";let N=[`Architectural and compiler support for accelerating embedding operations on general purpose processors
+import{s as W,e as g,b as k,t as R,c as b,i as $,g as T,p as L,f as u,k as f,L as ee,m as A,l as d,q as O,n as S,H as se,d as re,j as K,E as Y,K as ie,$ as oe,o as le,a0 as Z,h as ce}from"../chunks/scheduler.5tJKh472.js";import{S as j,i as G,g as de,b as V,e as he,t as P,c as z,a as F,m as U,d as B}from"../chunks/index.SdZpk_LJ.js";import{e as ue}from"../chunks/each.-oqiv04n.js";let N=[`Architectural and compiler support for accelerating embedding operations on general purpose processors
 <br/>
 Speaker: Marco Siracusa and Olivia Hsu<br/>
 Speaker Affiliation: Barcelona Supercomputing Center(BSC) <br/>
