@@ -40,13 +40,13 @@
 </svelte:head>
 
 <section>
-	<ul class="space-y-6 px-4">
+	<ul class="space-y-6 px-6">
 		{#each data.blogs as blog}
 			{#if blog.published}
 				<li class="cursor-pointer">
 					<a
 						href="/blogs/{blog.slug}"
-						class="block transition hover:bg-gray-100 dark:hover:bg-gray-700 p-4 rounded-lg shadow-lg"
+						class="block transition hover:bg-gray-100 dark:hover:bg-gray-700 p-4 rounded-lg shadow-lg border-2"
 					>
 						<div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
 							<img

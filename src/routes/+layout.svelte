@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="bg-white text-black dark:bg-slate-800 dark:text-slate-300 min-h-screen transition-all duration-300"
+	class="bg-white text-black dark:bg-slate-800 dark:text-slate-300 min-h-screen transition-all duration-300 pb-12"
 >
 	<nav
 		class="bg-white dark:bg-slate-800 fixed top-0 w-full flex flex-row py-4 text-lg justify-between items-center px-4 border-b border-gray-100 dark:border-gray-700 z-50"
