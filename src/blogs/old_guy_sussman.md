@@ -388,7 +388,7 @@ Or maybe it's because I'm not an old white man. As an international student, I c
 
 You might think he’s an old sage who just drinks tea, reads books, writes code, and ignores worldly affairs. But that’s not entirely true. He also enjoys talking about his wife.
 
-Once, I visited his office. He mentioned that my wife Julie might be around. I knew Julie Sussman was a book editor and her name appears on the cover of his famous book, thanked for maintaining "the Gerald Sussman Project" for decades. The old guy reminisced about their passionate years: they were both in MIT's math department, she was a year behind him. He lived in Baker; she was in McCormick...
+Once, I visited his office. He mentioned that his wife Julie might be around. I knew Julie Sussman was a book editor and her name appears on the cover of his famous book, thanked for maintaining "the Gerald Sussman Project" for decades. The old guy reminisced about their passionate years: they were both in MIT's math department, she was a year behind him. He lived in Baker; she was in McCormick...
 
 As I browsed through his office books, we chatted. I pointed out a formatting error in one of the books, and he seized the opportunity to boast, “That’s because he doesn’t have a wife as good as mine.”
 
