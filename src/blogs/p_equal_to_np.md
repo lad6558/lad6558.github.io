@@ -18,7 +18,7 @@ image: '/blogs/pnp/practicle.jpg'
 ![Michael Sipser](/blogs/pnp/sipser.jpg)
 
 <figcaption>
-This is Professor Michael Sipser. Back in his younger years, he spent decades thinking whether P is equal to NP (a famous unsolved computer science problem). He ultimately gave up and chose instead to dedicate his life to teaching MIT’s 18.404 Theory of Computation class, quickly becoming one of the most beloved professors on campus.
+This is Professor Michael Sipser. Back in his younger years, he spent decades thinking about whether P is equal to NP (a famous unsolved problem in computer science). While he still hasn’t figured it out, he’s dedicated himself to teaching MIT’s 18.404 Theory of Computation class, where he’s known as one of the most beloved professors on campus.
 </figcaption>
 </figure>
 
