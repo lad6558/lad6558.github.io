@@ -10,7 +10,12 @@ image: '/blogs/dormsoup/loading.gif'
     import Tooltip from "./Tooltip.svelte"
 </script>
 
+<aside>
+
 (This is more of a portfolio than a blog. The writing is more dry than usual.)
+
+</aside>
+
 
 Website link: [dormsoup.mit.edu](https://dormsoup.mit.edu) (needs MIT kerb to access)
 

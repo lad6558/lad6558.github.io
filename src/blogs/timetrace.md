@@ -11,11 +11,15 @@ image: '/blogs/timetrace/group.jpg'
     import Tooltip from "./Tooltip.svelte"
 </script>
 
+<aside>
+
 (The following text is translated by ChatGPT from Chinese, so misquotes and errors are possible. You can find [the original Chinese version here](https://mp.weixin.qq.com/s/54XkYQbnL-FsWI6FLy5__A).)
+
+</aside>
 
 During my junior year, I worked on a startup project with a few friends. The project is called TimeTrace, and our team includes five MIT students and one Princeton student.
 
-At first, I envisioned TimeTrace as an app that would record all your screen activity. We ended up building a Chrome extension, which now has a small user base on the Chrome Web Store and has been launched on Product Hunt as well.
+At first, I envisioned TimeTrace as an app that would record all your screen activity. We ended up building a Chrome extension, which now has a small user base on the [Chrome Web Store](https://chromewebstore.google.com/detail/timetrace-navigate-your-b/kmnfpbhpiadgjmbhajleoghenphldppi) and has been launched on [Product Hunt](https://www.producthunt.com/products/timetrace) as well.
 
 Looking back, we made quite a few mistakes on this first venture, but I’ve also gathered some key takeaways, which I’d like to share here in the form of stories.
 
@@ -25,7 +29,7 @@ Imagine I tell a car factory I want to build a car. The engineer there says, “
 
 That little crayon car drawing is my Proof of Concept. It might not look impressive, but sometimes these rough sketches do wonders in moving an idea forward.
 
-Think it sounds absurd? Well, when I was first starting this project, my “crayon car” sketch is what convinced my future tech lead Chengyuan to join the team.
+Think it sounds absurd? Well, when I was first starting this project, my “crayon car” sketch is what convinced my future tech lead [Chengyuan](https://danglingpointer.fun/about) to join the team.
 
 So, let’s rewind to the beginning of my junior year. Back then, I had no team, no project, just a bunch of wild dreams and an itch to build something.
 
@@ -142,7 +146,7 @@ Take the time we were deciding on TimeTrace’s tech stack. Chengyuan proposed a
 
 I argued that a simpler design would work just as well and save us time.
 
-But he reminded me of our last project ([DormSoup](https://andiliu.me/blogs/dormsoup)) together, where we rushed the build, and the code turned into a “mountain of spaghetti.” He wasn’t eager to repeat that.
+But he reminded me of our last project ([DormSoup](/blogs/dormsoup)) together, where we rushed the build, and the code turned into a “mountain of spaghetti.” He wasn’t eager to repeat that.
 
 I replied, “If we hadn’t pushed to launch right before freshman orientation, we’d never have gotten a thousand users. You can make your solo project code as pristine as you want, but how many people will see it? Twenty-one GitHub stars. We’re building for users, which means features, speed, and iteration.”
 
@@ -232,7 +236,7 @@ This is TimeTrace—a more user-friendly browsing history. It offers:
 3. Saves all history from the time of installation (and existing history before installation).
 4. Jump to any day’s history with a date selector.
 
-TimeTrace is a Chrome extension that enhances your browsing history. It’s available for free on the [Chrome Web Store](https://chromewebstore.google.com/detail/timetrace-navigate-your-b/kmnfpbhpiadgjmbhajleoghenphldppi), or you can visit our website: [timetrace.ai](timetrace.ai), where there’s a download link.
+TimeTrace is a Chrome extension that enhances your browsing history. It’s available for free on the [Chrome Web Store](https://chromewebstore.google.com/detail/timetrace-navigate-your-b/kmnfpbhpiadgjmbhajleoghenphldppi), or you can visit our website: [timetrace.ai](https://timetrace.ai), where there’s a download link.
 
 We genuinely invite you to check out our project! Our team is continuously working to roll out new features to improve user experience, and we welcome feedback.
 

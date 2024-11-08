@@ -6,7 +6,11 @@ published: true
 image: '/blogs/pseudo/salmon.png'
 ---
 
+<aside>
+
 (The following text is translated by ChatGPT from Chinese, so misquotes and errors are possible. You can find [the original Chinese version here](https://mp.weixin.qq.com/s/WI6mIoC8uI96pqi1i-WC3A). )
+
+</aside>
 
 #### Part One
 
