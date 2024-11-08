@@ -40,7 +40,7 @@
 </svelte:head>
 
 <section>
-	<ul class="space-y-6 px-6">
+	<ul class="space-y-6 px-6 max-w-4xl">
 		{#each data.blogs as blog}
 			{#if blog.published}
 				<li class="cursor-pointer">
