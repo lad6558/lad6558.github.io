@@ -84,3 +84,22 @@ h4:target {
 	padding-top: 70px;
 	margin-top: calc(-70px + 1em);
 }
+
+ol {
+	list-style-type: decimal;
+	margin-top: 0.5em;
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+
+	li {
+		margin-bottom: 0.5em;
+		padding-left: 0.5em;
+	}
+
+	// Handle nested lists
+	ol {
+		list-style-type: lower-alpha;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+}
