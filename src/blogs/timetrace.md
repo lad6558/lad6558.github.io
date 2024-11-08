@@ -93,16 +93,14 @@ And that’s how TimeTrace got its start. That initial POC code never made it in
 
 <figcaption>
 
-By the way, besides TimeTrace, I was pitching other ideas back then too—like “Dating Coach GPT.” I even made a POC for it, called RizzGPT, but after testing, I realized it was…incredibly awkward. I dropped it. A failed POC can save you tons of time—better to find out early than to gather a whole team and only then realize it’s a dead end.
+By the way, besides TimeTrace, I was pitching other ideas back then too—like RizzGPT, your personal texting coach. But after testing, I realized ChatGPT was quite awkward at flirting. I dropped it. A failed POC can save you tons of time—better to fail fast than to gather a whole team and only then realize it’s a dead end.
 
 </figcaption>
 </figure>
 
-This version aims to keep the original’s humor and relatable feel while making the language flow naturally for English readers. Let me know if you want similar revisions for the other lessons!
-
 #### Lesson 2: Smart People Are Not The Same
 
-In class projects, everyone tries to latch onto the “craked” person in the group. And in startup recruiting, it’s all about hunting for the smartest people.
+In class projects, everyone tries to latch onto the “cracked” person in the group. And in startup recruiting, it’s all about hunting for the smartest people.
 
 But pretty quickly, I learned that smart people are not smart in the same way; there are all kinds of “genius,” and not every “big shot” is a great teammate.
 
@@ -112,9 +110,9 @@ Sure enough, the friend knew his stuff. I showed him my six-line POC code, and t
 
 Then we got to the part where we needed to divvy up tasks. He mentioned he had finals coming up and might not be available for the next two weeks.
 
-No problem, right? Fast-forward past finals, and he tells us he’d pushed himself too hard last semester and now needed a break. Months later, I reached out again, and he asked if we were planning to make TimeTrace an actual product instead of a “toy.” I said yes, and he told me that didn’t line up with his interests—he preferred research over software engineering. That’s when we had the “formal exit discussion.”
+No problem, right? Fast-forward past finals, and he tells us he’d pushed himself too hard last semester and now needed a break. Months later, I reached out again, and he asked if we were planning to “make TimeTrace an actual product instead of a toy.” I said yes, and he told me that didn’t line up with his interests—he preferred research over software engineering. That’s when we had the “formal exit discussion.”
 
-Lesson learned: not every super-talented person is cut out to be a teammate.
+Lesson learned: not every super-talented person should be a teammate.
 
 Now, you can broadly categorize talented tech folks by what motivates them. There are two main types: engineers and researchers.
 
@@ -191,7 +189,7 @@ There’s a management theory that teams go through four stages: forming, stormi
 ![TimeTrace User Interface](/blogs/timetrace/group.jpg)
 
 <figcaption>
-Our UI designer, Leona, wasn’t in the shot!
+Our UI designer, Leona, wasn’t in the shot
 </figcaption>
 </figure>
 
