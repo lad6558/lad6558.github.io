@@ -8,10 +8,25 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import remarkBreaks from 'remark-breaks';
 import remarkSectionize from 'remark-sectionize';
 import remarkGithub from 'remark-github';
+import { visit } from 'unist-util-visit';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
+	rehypePlugins: [
+		[
+			// Custom rehype plugin to handle data-sveltekit-reload
+			function rehypeSvelteKitReload() {
+				return function transformer(tree) {
+					visit(tree, 'element', (node) => {
+						if (node.tagName === 'a' && node.properties.href?.startsWith('/blogs/')) {
+							node.properties['data-sveltekit-reload'] = '';
+						}
+					});
+				};
+			}
+		]
+	],
 }
 
 /** @type {import('@sveltejs/kit').Config} */
