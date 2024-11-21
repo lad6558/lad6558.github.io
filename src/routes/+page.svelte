@@ -18,7 +18,7 @@
 			"url": "https://andiliu.me",
 			"image": "https://andiliu.me/app/immutable/assets/Profile%20Pic.49AGY8G_.jpeg",
 			"sameAs": [
-				"https://www.linkedin.com/in/andi-liu/",
+				"https://www.linkedin.com/in/andiliu/",
 				"https://github.com/lad6558"
 			],
 			"jobTitle": "Computer Science Student",
@@ -83,7 +83,7 @@
 			/
 			<a
 				class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-				href="https://www.linkedin.com/in/andi-liu/">LinkedIn</a
+				href="https://www.linkedin.com/in/andiliu/">LinkedIn</a
 			>
 		</p>
 	</div>
