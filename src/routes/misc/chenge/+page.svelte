@@ -32,18 +32,6 @@
 		fallDistance="100vh"
 		colorArray={['#FFD700', '#FFA500', '#FF69B4', '#FF1493', '#FF4500']}
 	/>
-
-	<!-- Additional confetti streams for more coverage -->
-	<Confetti
-		x={[-7, -2]}
-		y={[0, 0.1]}
-		delay={[500, 2500]}
-		infinite
-		duration={4500}
-		amount={200}
-		fallDistance="100vh"
-		colorArray={['#FFD700', '#FFA500', '#FF69B4']}
-	/>
 	<Confetti
 		x={[2, 7]}
 		y={[0, 0.1]}
@@ -57,7 +45,7 @@
 </div>
 
 <div
-	class="flex flex-col max-w-xl px-6 py-12 space-y-4 ring-2 ring-yellow-300"
+	class="flex flex-col max-w-sm md:max-w-xl px-6 py-12 space-y-4 ring-2 ring-yellow-300"
 	on:click={spawnConfetti}
 >
 	<h2 class="text-2xl font-bold">我亲爱的晨歌，</h2>
