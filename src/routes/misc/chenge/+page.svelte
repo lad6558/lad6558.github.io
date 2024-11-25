@@ -44,15 +44,20 @@
 	/>
 </div>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
 	class="flex flex-col max-w-sm md:max-w-xl px-6 py-12 space-y-4 ring-2 ring-yellow-300"
 	on:click={spawnConfetti}
 >
 	<h2 class="text-2xl font-bold">我亲爱的晨歌，</h2>
+	<p class="text-lg">生日快乐！</p>
 	<p class="text-lg">
-		生日快乐！这个域名是我给你的生日礼物。等到你要做个人网站的时候，我就把这个域名转给你。
+		这个域名（chengeliu.com）是我给你的生日礼物。等到你要做个人网站的时候，我就把这个域名转让给你。
 	</p>
-	<p class="text-lg">很开心能遇见你！</p>
+	<p class="text-lg">
+		“我想一定要送一个你之后每天都需要，常常会看到的东西，这样你每次看到它，拿出它，都会想起我了。”
+	</p>
 	<img src={lineDog} alt="line dog" class="w-1/2" />
 
 	<p class="text-xl font-bold w-full text-right">刘安迪</p>
