@@ -10,6 +10,15 @@
 		name="description"
 		content="Hi! This is Andi Liu, a CS undergrad from MIT. You can check out my blogs and software projects here!"
 	/>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G035D2MZSG"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-G035D2MZSG');
+	</script>
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
