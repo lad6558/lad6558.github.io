@@ -2,8 +2,8 @@
 title: Quantifying Numerical Consistency of LLM-as-a-Judge
 description: Don't use reason. Just use intuition.
 date: '2024-12-10'
-published: true
-image: '/blogs/versus/Andi_fighting_LLM.jpg'
+published: false
+image: '/blogs/deep_learning/1.png'
 ---
 
 <aside>
@@ -57,7 +57,7 @@ The main motivation for our study is to evaluate and improve the consistency of 
 
 The first question we want to explore is how consistent the judges are in their grading. How to reduce the variances in numerical grading to make the judges more consistent?
 
-Before we dive into specific experiments, I want to introduce the setup of experiments.
+Before we dive into specific experiments, We want to introduce the setup of experiments.
 
 ### Experiment Setup
 
@@ -103,7 +103,7 @@ Or
 ### Experiment 1: Does Higher Temperature Result in Larger Variances?
 
 OpenAI describes the temperature parameter in its ChatCompletion API as follows:
-> The sampling temperature, between 0 and 1\. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use log probability to automatically increase the temperature until certain thresholds are hit.
+> Temperature: The sampling temperature, between 0 and 1\. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use log probability to automatically increase the temperature until certain thresholds are hit.
 
 A natural hypothesis is that smaller temperatures would lead to more consistent grading. Experimental results support this hypothesis: lower temperatures indeed result in smaller variances.
 
@@ -115,7 +115,7 @@ The following plot illustrates results obtained by evaluating three different ju
 
 Using Spearman’s correlation coefficient—a nonparametric measure of monotonicity ranging from -1 to 1—we find strong evidence that higher temperatures correlate with greater variances in numerical grading (`p < 0.0001`).
 
-Interestingly, different models appear to be affected by temperature to varying degrees. This raises the question: Does that mean…
+Interestingly, different models appear to be affected by temperature to varying degrees. This raises the question: Do larger models get less affected by temperature?
 
 ### Experiment 2: Do Larger Models Get Less Affected By Temperature?
 
