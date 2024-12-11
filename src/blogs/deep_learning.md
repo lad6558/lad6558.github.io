@@ -1,7 +1,7 @@
 ---
 title: Quantifying Numerical Consistency of LLM-as-a-Judge
-description: Four years ago I wanted to do machine learning. Now, I am no longer sure.
-date: '2025-6-25'
+description: Don't use reason. Just use intuition.
+date: '2024-12-10'
 published: true
 image: '/blogs/versus/Andi_fighting_LLM.jpg'
 ---
@@ -70,7 +70,6 @@ The specific setup depended on individual experiments, but all setups have some 
 An example of a prompt would be:
 
 ```python
-# Define the prompt
 prompt = """[System]
 Please act as an impartial judge and evaluate the quality of the response provided by an AI assistant to the user question displayed below. Please evaluate the following response on a scale from 1-10.
 
@@ -233,6 +232,10 @@ What is harder to explain is that prompting the LLM to add reasoning after the s
 
 The "reasoning increases variance" phenomenon is also confirmed by the score distribution (we also included the version without reasoning below for convenience of comparison).
 
+![Score distribution with and without reasoning](/blogs/deep_learning/6.png "Score distribution with and without reasoning")
+![Score distribution with and without reasoning](/blogs/deep_learning/7.png "Score distribution with and without reasoning")
+
+
 It seems that GPT-4o-mini, our "star of consistency" in Experiment 1, is more affected by reasoning than GPT-3.5 or GPT-4o. Kruskal-Wallis H-test confirms that this difference exists at temperature = 1.0 (`p < 0.01`), but less so at lower temperatures, such as 0.5 (`0.05 < p < 0.1`) or 0.3 (`p > 0.1`). At temperature 1.0, GPT-4o-mini is significantly more affected by reasoning than GPT-4o and GPT-3.5-turbo, according to Mann-Whitney U tests (`p < 0.01`).
 
 We have three possible explanations for this:
@@ -255,7 +258,7 @@ We conducted our experiments using a subset of the MT-bench dataset. This datase
 
 **Prompt Design**: For our baseline, we used pairwise comparison, which is the standard method for judging two responses. We adopted the prompt from \[2\], attached below.
 
-![Baseline prompt example for pairwise comparison](/blogs/deep_learning/6.png "Baseline prompt example for pairwise comparison")
+![Baseline prompt example for pairwise comparison](/blogs/deep_learning/8.png "Baseline prompt example for pairwise comparison")
 
 **Scoring**:
 
@@ -274,11 +277,9 @@ To evaluate pointwise grading, we used the following approach:
 • If the grades were equal, the outcome was labeled "tie."
 • We applied this conversion across all 1,000 response pairs and evaluated variations of pointwise grading using the same scoring system as the baseline.
 
-##
-
 #### Results
 
-![Results comparing different methods](/blogs/deep_learning/7.png "Results comparing different methods")
+![Results comparing different methods](/blogs/deep_learning/9.png "Results comparing different methods")
 
 1. **All methods outperformed random choice or always returning "tie."**
 
@@ -288,7 +289,7 @@ This was expected, as both pairwise and pointwise methods leverage the LLM’s u
 
 This was confirmed using a Friedman test followed by a post-hoc Nemenyi test (`p < 0.05`).
 
-![Graph showing performance comparison of different methods](/blogs/deep_learning/8.png "Graph showing performance comparison of different methods")
+![Graph showing performance comparison of different methods](/blogs/deep_learning/10.png "Graph showing performance comparison of different methods")
 
 As we can see from the graph, while the difference in terms of human alignment for other non-baseline methods are statistically insignificant, all non-baseline methods are better than "reasoning before", i.e. chain-of-thought.
 
@@ -296,7 +297,7 @@ As we can see from the graph, while the difference in terms of human alignment f
 
 We further analyzed how temperature affects agreement with human evaluations. The results provided additional insights:
 
-![Temperature's effect on model performance](/blogs/deep_learning/9.png "Temperature's effect on model performance")
+![Temperature's effect on model performance](/blogs/deep_learning/11.png "Temperature's effect on model performance")
 
 It seems like the higher the temperature, the worse the reasoning gets. This is confirmed by a Friedman test (`p < 0.001`). The difference for "no reasoning" is statistically insignificant (`p > 0.1`).
 
