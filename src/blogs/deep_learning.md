@@ -1,12 +1,10 @@
 ---
-title: Quantifying the Consistency in Numerical Gradings in LLM-as-a-Judge
+title: Quantifying Numerical Consistency of LLM-as-a-Judge
 description: Four years ago I wanted to do machine learning. Now, I am no longer sure.
 date: '2025-6-25'
 published: true
 image: '/blogs/versus/Andi_fighting_LLM.jpg'
 ---
-
-# Quantifying the Consistency in Numerical Gradings in LLM-as-a-Judge
 
 <aside>
 
