@@ -1,5 +1,5 @@
 <script>
-	import profilePic from '$lib/assets/Profile Pic.jpeg';
+	import profilePic from '$lib/assets/profile4to5.jpeg';
 	import profilePicDark from '$lib/assets/Profile Pic Dark.jpeg';
 	import resume from '$lib/assets/Resume_Aug_10_Andi_Liu.pdf';
 </script>
@@ -11,13 +11,31 @@
 		content="Hi! This is Andi Liu, a CS undergrad from MIT. You can check out my blogs and software projects here!"
 	/>
 	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G035D2MZSG"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
-	gtag('config', 'G-G035D2MZSG');
+		gtag('config', 'G-G035D2MZSG');
 	</script>
 	<script type="application/ld+json">
 		{
@@ -52,13 +70,13 @@
 	</script>
 </svelte:head>
 
-<div class="relative flex flex-col md:flex-row mx-auto space-x-0 md:space-x-8">
+<div class="relative flex flex-col lg:flex-row mx-auto space-x-0 lg:space-x-8">
 	<div class="flex items-center justify-center">
-		<img class="h-80 w-64 dark:hidden" src={profilePic} alt="Andi" />
-		<img class="h-80 w-64 hidden dark:block" src={profilePicDark} alt="Andi" />
+		<img class="h-[25rem] w-[20rem] dark:hidden rounded-lg" src={profilePic} alt="Andi" />
+		<img class="h-[25rem] w-[20rem] hidden dark:block rounded-lg" src={profilePicDark} alt="Andi" />
 	</div>
 
-	<div class="mt-4 flex flex-col items-center justify-center md:w-[34rem] px-4">
+	<div class="mt-4 flex flex-col items-center justify-center lg:w-[34rem] px-4">
 		<p class="block dark:hidden">
 			Hi! I am Andi Liu. I study Computer Science at MIT.
 			<br />
