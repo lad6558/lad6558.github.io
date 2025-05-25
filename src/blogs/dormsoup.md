@@ -16,12 +16,15 @@ image: '/blogs/dormsoup/loading.gif'
 
 </aside>
 
-
 Website link: [dormsoup.mit.edu](https://dormsoup.mit.edu) (needs MIT kerb to access)
 
 Technologies: React, Next.js, TailwindCSS, PostgreSQL, ChatGPT
 
 GitHub links: [frontend](https://github.com/DormSoup/dormsoup), [backend](https://github.com/DormSoup/dormsoup-daemon)
+
+#### Video Walkthrough
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RzwH4Tw0zwg?si=_kzGXLLVa-ez6bbV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Screenshots
 
