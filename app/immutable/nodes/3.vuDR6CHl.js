@@ -1,4 +1,4 @@
-import{s as N,e,d as b,t as I,h as W,f as n,m as w,j as s,k as L,l as A,v as C,n as a,L as F,o as t,p as Z,q as V}from"../chunks/scheduler.D28vW62Q.js";import{S as K,i as X}from"../chunks/index.r4fslLOX.js";const tt=""+new URL("../assets/profile4to5.OcVV4lNI.jpeg",import.meta.url).href,et=""+new URL("../assets/Profile Pic Dark.dn_nQ1r8.jpeg",import.meta.url).href,nt=""+new URL("../assets/Resume_Aug_10_Andi_Liu.RgfgAQyJ.pdf",import.meta.url).href;function at(J){let d,i,Y="",q,p,U=`window.dataLayer = window.dataLayer || [];
+import{s as N,e,d as b,t as I,h as W,f as n,m as w,j as s,k as L,l as A,v as C,n as a,w as F,o as t,p as Z,q as V}from"../chunks/scheduler.Akaa1qgm.js";import{S as K,i as X}from"../chunks/index.4zwsX5bZ.js";const tt=""+new URL("../assets/profile4to5.OcVV4lNI.jpeg",import.meta.url).href,et=""+new URL("../assets/Profile Pic Dark.dn_nQ1r8.jpeg",import.meta.url).href,nt=""+new URL("../assets/Resume_Aug_10_Andi_Liu.RgfgAQyJ.pdf",import.meta.url).href;function at(J){let d,i,Y="",q,p,U=`window.dataLayer = window.dataLayer || [];
 		function gtag() {
 			dataLayer.push(arguments);
 		}
