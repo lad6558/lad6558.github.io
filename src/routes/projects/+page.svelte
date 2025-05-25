@@ -29,9 +29,9 @@
 			}
 		},
 		{
-			name: 'Miso the Mail Sorter',
-			description: 'A wireframe for Miso, the email sorting assistant.',
-			url: 'https://andiliu.me/projects/miso-wire',
+			name: 'Miso',
+			description: 'An AI inbox that learns your preferences and hides emails you are not interested in.',
+			url: 'https://andiliu.me/blogs/miso',
 			type: 'CreativeWork'
 		}
 	];

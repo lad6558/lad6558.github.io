@@ -1,5 +1,5 @@
 ---
-title: DormSoup - GPT-Powered Eventbrite
+title: DormSoup — GPT-Powered Eventbrite
 description: A ChatGPT-powered campus event website that parses emails into time, locations and tags, totaling ~960 MIT student users.
 date: '2024-08-20'
 published: true
@@ -24,7 +24,9 @@ GitHub links: [frontend](https://github.com/DormSoup/dormsoup), [backend](https:
 
 #### Video Walkthrough
 
+<div class="flex justify-center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RzwH4Tw0zwg?si=_kzGXLLVa-ez6bbV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 #### Screenshots
 

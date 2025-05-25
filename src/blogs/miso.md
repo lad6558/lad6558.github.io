@@ -1,5 +1,5 @@
 ---
-title: Miso - AI Inbox that Learns Your Preferences
+title: Miso — AI Inbox that Learns Your Preferences
 description: A personalized email client that uses ML to hide emails you are not interested in. Miso soup, anyone?
 date: '2025-05-25'
 published: true
@@ -14,7 +14,9 @@ Technologies: Svelte, Tauri, TailwindCSS, SQLite, ChatGPT
 
 #### Video Walkthrough
 
+<div class="flex justify-center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y9ss-FurtBc?si=orC9JTkeyxB8bbgX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 #### Story
 
@@ -28,14 +30,14 @@ So, how does it work?
 
 #### Onboarding Calibration
 
-You start by swiping right on emails you want to see and swiping left on emails you don’t. Behind the scenes, a lightweight ML model stores your preferences using vector embeddings. It’s pretty simple—but surprisingly effective. We were honestly impressed by how quickly it learned our tastes.
+You start by swiping right on emails you want to see and swiping left on emails you don’t. Behind the scenes, a lightweight ML model stores your preferences using vector embeddings. It’s pretty simple, but surprisingly effective. We were honestly impressed by how quickly it learned our tastes.
 
 <figure>
 
 ![Onboarding View](/blogs/miso/sorter.png)
 
 <figcaption>
-Users onboard by labeling what emails they want to see (swipe right) and do not want to see (swipe left) to teach the AI their preferences. The model then starts making predictions. In this case: a seminar about computational neuroscience — probably not interested (19%).
+Users onboard by labeling what emails they want to see (swipe right) and do not want to see (swipe left) to teach the AI their preferences. The model then starts making predictions. In this case: a seminar about computational neuroscience, probably not interested (19%).
 </figcaption>
 </figure>
 
@@ -60,6 +62,6 @@ You can reclassify any email manually at any time. Hit `Q` to say “don’t wan
 
 #### Just a Proof-of-Concept
 
-This is still a prototype—very hackathon-style. Everything was built in 2 days with Cursor and Claude 4. We originally wanted to build a full-featured email client… and realized that’s a rabbit hole.
+This is still a prototype, very hackathon-style. Everything was built in 2 days with Cursor and Claude 4. We originally wanted to build a full-featured email client… and realized that’s a rabbit hole.
 
 So we focused on what actually matters: hiding what you don't want to see, surfacing what you want to see.
