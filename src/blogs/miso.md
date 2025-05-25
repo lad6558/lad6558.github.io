@@ -24,7 +24,9 @@ And I thought, why stop at events? We receive so many emails per day, many of th
 
 And so MISO the <span style="color: #f59e0b;">M</span>a<span style="color: #f59e0b;">I</span>l <span style="color: #f59e0b;">S</span><span style="color: #f59e0b;">O</span>rter was born. (It is like DormSoup, but MisoSoup)
 
-#### How It Works
+So, how does it work?
+
+#### Onboarding Calibration
 
 You start by swiping right on emails you want to see and swiping left on emails you don’t. Behind the scenes, a lightweight ML model stores your preferences using vector embeddings. It’s pretty simple—but surprisingly effective. We were honestly impressed by how quickly it learned our tastes.
 
